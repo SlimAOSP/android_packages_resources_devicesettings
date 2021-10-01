@@ -102,6 +102,7 @@
     <!-- Pick-up gesture -->
     <string name="pick_up_gesture_title">Pick-up</string>
     <string name="pick_up_gesture_summary">Pulse notifications on pick-up</string>
+    <string name="pick_up_wake_gesture_summary">Wake device on pick-up</string>
 
     <!-- Pocket gesture -->
     <string name="pocket_gesture_title">Pocket</string>
@@ -154,6 +155,9 @@
     <!-- Dialog texts -->
     <string name="dialog_ok">OK</string>
 
+    <!-- Generic texts -->
+    <string name="disabled">Disabled</string>
+
     <!-- Help texts -->
     <string name="doze_settings_help_title">Help</string>
     <string name="doze_settings_help_text">These features use sensor events to launch a doze notification pulse. The chosen sensor is only enabled when the device receives a notification, this helps to reduce battery usage. There is also an option to enable the chosen sensor as soon as the screen turns off, this will cause higher battery usage.</string>
@@ -177,4 +181,16 @@
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">High touch sensitivity</string>
     <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+
+    <!-- Quick charge toggle -->
+    <string name="quick_charge_title">Quick charge</string>
+    <string name="quick_charge_summary">Toggle quick charge. Unplug and replug the charger after changing this setting</string>
+
+    <!-- Camera focus fix toggle -->
+    <string name="camera_focus_fix_title">Camera focus fix</string>
+    <string name="camera_focus_fix_summary">Enable if you have issues with the camera not focusing</string>
+
+    <!-- Wake on gesture -->
+    <string name="wake_on_gesture_title">Wake up on gestures</string>
+    <string name="wake_on_gesture_summary">Wake the device instead of pulsing notifications on gesture events</string>
 </resources>
